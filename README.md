@@ -43,7 +43,7 @@
 </ul>
 <h2>Modo de uso</h2>
 <ol>
-  <li>Clone o repositório que contém o script ou faça o download do arquivo .py clicando <a href="https://github.com/seu-usuario/seu-repositorio" target="_new">aqui</a>.</li>
+  <li>Clone o repositório que contém o script ou baixo script.</li>
   <li>Certifique-se de ter todas as dependências mencionadas instaladas.</li>
   <li>Abra um terminal e navegue até o diretório onde o script está localizado.</li>
   <li>Execute o seguinte comando para exibir a ajuda e ver os argumentos necessários:
@@ -54,9 +54,11 @@
     <ul>
       <li>--site: Domínio do site a ser pesquisado (por exemplo, "br").</li>
       <li>--text: Texto a ser procurado nos resultados da pesquisa (por exemplo, "escola").</li>
-      <li>Exemplo: ```python script.py --site br --text governo```</li>
+      <li>Exemplo:</li>
     </ul>
-  </li>
+        ````
+        python script.py --site br --text escola
+        ````  
   <li>Aguarde até que o script conclua a pesquisa, verificação de emails e execução do wpscan.</li>
   <li>Os resultados serão exibidos no terminal, incluindo os emails encontrados agrupados por URL e o progresso do wpscan em cada site.</li>
 </ol>
