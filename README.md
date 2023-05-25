@@ -1,6 +1,6 @@
-<h1>Descrição detalhada do script de busca de dork no Google</h1>
+<h1>DefenseWebGuard</h1>
 <h2>Visão geral</h2>
-<p>O script em questão foi desenvolvido para realizar um web scraping no Google e buscar resultados de pesquisa relacionados a um determinado site e texto. Ele utiliza a biblioteca requests para fazer solicitações HTTP, a biblioteca BeautifulSoup para extrair os dados HTML das páginas, e outras bibliotecas como argparse, subprocess, os, re, colorama e tqdm para auxiliar no processamento e apresentação dos resultados.</p>
+<pscript em Python é uma ferramenta poderosa desenvolvida para proteger a internet, ajudando a identificar e alertar proprietários de sites que possuem falhas de segurança no WordPress. Com sua automação inteligente, o script simplifica todo o processo de busca, encontra os endereços de e-mail dos proprietários e envia automaticamente os alertas com apenas algumas configurações e uma linha de comando.</p>
 <h2>Funcionamento</h2>
 <p>O script realiza as seguintes etapas principais:</p>
 <ol>
@@ -54,13 +54,15 @@
     <ul>
       <li>--site: Domínio do site a ser pesquisado (por exemplo, "br").</li>
       <li>--text: Texto a ser procurado nos resultados da pesquisa (por exemplo, "escola").</li>
-      <li>Exemplo:</li>
     </ul>
-        ````
-        python script.py --site br --text escola
-        ````  
+
   <li>Aguarde até que o script conclua a pesquisa, verificação de emails e execução do wpscan.</li>
   <li>Os resultados serão exibidos no terminal, incluindo os emails encontrados agrupados por URL e o progresso do wpscan em cada site.</li>
 </ol>
 <p>É importante ressaltar que o script pode levar algum tempo para ser concluído, dependendo do número de páginas de pesquisa e sites a serem verificados. Certifique-se de respeitar as políticas e termos de uso do Google e dos sites acessados pelo script.</p>
 
+Exemplo:
+
+```
+python script.py --site br --text escola
+```  
