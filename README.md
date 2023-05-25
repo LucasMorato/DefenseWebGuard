@@ -1,6 +1,6 @@
 <h1>DefenseWebGuard</h1>
 <h2>Visão geral</h2>
-<p>script em Python é uma ferramenta poderosa desenvolvida para proteger a internet, ajudando a identificar e alertar proprietários de sites que possuem falhas de segurança no WordPress. Com sua automação inteligente, o script simplifica todo o processo de busca, encontra os endereços de e-mail dos proprietários e envia automaticamente os alertas com apenas algumas configurações e uma linha de comando.</p>
+<p>Esse script em Python desenvolvido por mim é uma ferramenta poderosa desenvolvida para proteger a internet, ajudando a identificar e alertar proprietários de sites que possuem falhas de segurança no WordPress. Com sua automação inteligente, o script simplifica todo o processo de busca, encontra os endereços de e-mail dos proprietários e envia automaticamente os alertas com apenas algumas configurações e uma linha de comando.</p>
 <h2>Funcionamento</h2>
 <p>O script realiza as seguintes etapas principais:</p>
 <ol>
